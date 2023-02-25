@@ -15,12 +15,13 @@ Horario.init(
             defaultValue: sequelize.literal('CURRENT_TIMESTAMP')
         },
         fim: {
-            type: DataTypes.DATE
+            type: DataTypes.DATE,
+            defaultValue: sequelize.literal('0')
         },
         id_funcionario: {
             type: DataTypes.INTEGER,
             references: {
-                model: 'funcionario',
+                model: 'funcionarios',
                 key: 'id',
                 onDelete: 'CASCADE'
             },
