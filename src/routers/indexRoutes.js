@@ -1,7 +1,7 @@
 const express = require('express')
-const { mensagem } = require('../controllers/funcionarioController')
+const { cadastrarFuncionario } = require('../controllers/funcionarioController')
 const router = express.Router()
 
-router.route('/').get(mensagem)
+router.route('/register').post(cadastrarFuncionario)
 
 module.exports = router
