@@ -1,0 +1,28 @@
+{
+  "name": "contadorhoras",
+  "version": "1.0.0",
+  "description": "Essa é a minha resolução de um desafio de backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilherme-07062002/APIWorkingHourCounter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilherme-07062002/APIWorkingHourCounter/issues"
+  },
+  "homepage": "https://github.com/Guilherme-07062002/APIWorkingHourCounter#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.29.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
