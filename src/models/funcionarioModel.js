@@ -13,6 +13,10 @@ Funcionario.init(
         nome: {
             type: DataTypes.STRING,
             allowNull: false
+        },
+        senha: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     },
     {

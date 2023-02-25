@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Guilherme-07062002/APIWorkingHourCounter#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "sequelize": "^6.29.0",
     "sqlite3": "^5.1.4"
   },
