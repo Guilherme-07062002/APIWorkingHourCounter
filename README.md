@@ -1,5 +1,5 @@
 ## Desafio Backend - Contador de horas trabalhadas
-<p>Essa é a minha resolução de um desafio de backend, se trata de uma API REST que calcula a duração de expediente de funcionários em uma empresa.</p>
+<p>Essa é a minha resolução de um desafio de backend que me auto propus a fazer, se trata de uma API REST que calcula a duração de expediente de funcionários em uma empresa.</p>
 <p>Desenvolvi esse código utilizando Node, Express e Sequelize<p>
 <p>Basicamente, o usuário realiza um cadastro com seu nome e senha, após isso ele pode fazer login no sistema e apartir daí registrar o horário de início do seu expediente, terminado o seu trabalho, é possível que ele registre o horário de termino, com isso o sistema armazena esses dados e possibilita ter acesso ao horário de inicio, fim e a duração do expediente de cada funcionário. Essa API também pode ser útil pra várias outras coisas, e ocasiões que envolvam monitoramento de tempo, e pode ser vastamente explorada com vários usos.</p>
 <p>Além disso, o sistema possui mecanismo de login e autenticação, feito com o Json Web Token, portanto apenas um usuário cadastrado poderá registrar o inicio e fim de cada expediente</p>
